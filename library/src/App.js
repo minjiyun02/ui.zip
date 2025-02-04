@@ -29,7 +29,7 @@ const UIShowcase = () => {
               <button className={style}>Button {index + 1}</button>
             </div> 
           ))}
-        </div>  
+        </div>
       </div>
     </div>
   );

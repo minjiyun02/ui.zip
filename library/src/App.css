@@ -1,0 +1,127 @@
+
+.navbar {
+  display: flex;
+  height: 4rem;
+  background-color: rgba(48, 133, 208, 0.418);
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar-link {
+  text-decoration: none;
+  padding: 0;
+  color: #1b1a1a;
+}
+
+.navbar-link:hover {
+  color: rgb(224, 112, 87);
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.button-wrapper {
+  background-color: #e9ecef;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button-blue {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-blue:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.button-green {
+  background-color: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-green:hover {
+  background-color: #1e7e34;
+  transform: scale(1.05);
+}
+
+.button-red {
+  background-color: #dc3545;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-red:hover {
+  background-color: #a71d2a;
+  transform: scale(1.05);
+}
+
+.button-gray {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.button-gray:hover {
+  background-color: #6c757d;
+  color: white;
+  transform: scale(1.05);
+}
+
+.button-yellow {
+  background-color: #ffc107;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-yellow:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+}
+
+
+
+

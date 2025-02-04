@@ -27,7 +27,7 @@ const UIShowcase = () => {
           {buttonStyles.map((style, index) => (
             <div key={index} className="button-wrapper">
               <button className={style}>Button {index + 1}</button>
-            </div>
+            </div> 
           ))}
         </div>
       </div>
